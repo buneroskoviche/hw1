@@ -56,13 +56,13 @@ p {
     background-position: center;
 }
 
-.services-section {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.services-content {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -70,11 +70,11 @@ p {
     background-color: #0072bb;
 }
 
-.services-content img {
+main section img {
     max-height: 200px;
 }
 
-.services-content h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -89,7 +89,7 @@ p {
     margin-left: 25px;
 }
 
-.benefits-section {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -100,11 +100,11 @@ p {
     background-color: #2589bd;
 }
 
-.benefits-content {
+aside section {
     margin-bottom: 32px;
 }
 
-.benefits-content img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
