@@ -10,3 +10,5 @@ Corrected missing button functionality
 Merged duplicated CSS settings
 Reordered CSS for clarity
 Minimized CSS script by using an HTML tag instead
+Alts added for image links
+Notes added to CSS

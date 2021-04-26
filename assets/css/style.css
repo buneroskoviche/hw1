@@ -1,30 +1,36 @@
+/* Default settings for padding and margins */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Colors for the body text and background */
 body {
     background-color: #d9dcd6;
     color: #ffffff;
 }
 
+/* Settings for the heading spacing, font and color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
 }
 
+/* Font and display settings for the company name */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Title settings for the aside */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Setting the text sizing, spacing, and position of the nav bar */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,20 +39,24 @@ nav {
     font-size: 20px;
 }
 
+/* Spacing the nav bar */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Making the nav bar links white and removing the underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Default paragraph text size */
 p {
     font-size: 16px;
 }
 
+/* Settings for the image dividing the header and body */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,12 +66,14 @@ p {
     background-position: center;
 }
 
+/* Sizing and spacing the container for the 3 services */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Creating the 3 boxes for the services */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -70,25 +82,30 @@ main section {
     background-color: #0072bb;
 }
 
+/* Size of the services images */
 main section img {
     max-height: 200px;
 }
 
+/* Text size and spacing for the 3 service titles */
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Moving the images to the left for Search Engine Op and Social Media */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Moving the image to the right for Online Rep Management */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Creating the container for the 3 benefits, placing it to the right, and choosing the font */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -100,16 +117,19 @@ aside {
     background-color: #2589bd;
 }
 
+/* Bottom margin for the benefits box */
 aside section {
     margin-bottom: 32px;
 }
 
+/* Spacing and size for the 3 benefits images */
 aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Spacing and text settings for the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -118,6 +138,7 @@ footer {
     color: black;
 }
 
+/* Resizing 'Made with <3 by Horiseon' */
 footer h2 {
     font-size: 20px;
 }
